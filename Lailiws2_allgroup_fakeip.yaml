@@ -129,7 +129,7 @@ dns:
     - +.media.dssott.com
 proxies:
   - name: lailiws2
-    server: jg.srpcom.cloud
+    server: vidi.srpcom.cloud
     port: 443
     type: vmess
     uuid: 27f00dd4-bb4a-4298-8613-e144b8ee55d8
@@ -145,7 +145,7 @@ proxies:
         Host: jg.srpcom.cloud
     udp: true
   - name: lailiws2 2
-    server: jg.srpcom.cloud
+    server: vidi.srpcom.cloud
     port: 80
     type: vmess
     uuid: 27f00dd4-bb4a-4298-8613-e144b8ee55d8
