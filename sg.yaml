@@ -1,0 +1,48 @@
+proxies:
+#=//=# Telegram > t.me/lunatech_store #=//=#
+
+- name: 7h
+  server: vidi.srpcom.cloud
+  port: 443
+  type: trojan
+  password: f35e1853-476c-4a11-ae58-3d2371d84245
+  skip-cert-verify: true
+  sni: dtc.lunatech.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dtc.lunatech.my.id
+  udp: true
+- name: Rotate ID-SG v2
+  server: vidi.srpcom.cloud
+  port: 80
+  type: vmess
+  uuid: d15ae488-78f9-4be3-9d04-7b6f1075033a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: auto.rotate.qzz.io
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: auto.rotate.qzz.io
+  udp: true
+- name: Rotate ID-SG v3
+  server: vidi.srpcom.cloud
+  port: 443
+  type: vless
+  uuid: 1e6611ce-aec7-4a64-8699-d7d731659f05
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: NS-stoRE.NSiDIK685.WorkerS.DEV
+  network: ws
+  ws-opts:
+    path: /4oZzyMSMxWn395MA/dGVuY2VudC5yaW4tdG9oc2FrYWdhbmdiYW5nLmZpbGVnZWFyLXNnLm1l?ed=2560
+    headers:
+      Host: NS-stoRE.NSiDIK685.WorkerS.DEV
+  udp: true

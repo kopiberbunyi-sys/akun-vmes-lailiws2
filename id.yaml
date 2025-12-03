@@ -1,33 +1,33 @@
 proxies:
-  - name: lailiws2
-    server: vidi.srpcom.cloud
-    port: 80
-    type: vmess
-    uuid: 27f00dd4-bb4a-4298-8613-e144b8ee55d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jg.srpcom.online
-    network: ws
-    ws-opts:
-      path: /vmessws
-      headers:
-        Host: jg.srpcom.online
-    udp: true
-  - name: lailiws2 2
-    server: vidi.srpcom.cloud
-    port: 443
-    type: vmess
-    uuid: 27f00dd4-bb4a-4298-8613-e144b8ee55d8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: jg.srpcom.online
-    network: ws
-    ws-opts:
-      path: /vmessws
-      headers:
-        Host: jg.srpcom.online
-    udp: true
+- name: lailiws2
+  server: vidi.srpcom.cloud
+  port: 80
+  type: vmess
+  uuid: 27f00dd4-bb4a-4298-8613-e144b8ee55d8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: jg.srpcom.online
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: jg.srpcom.online
+  udp: true
+- name: lailiws2 2
+  server: vidi.srpcom.cloud
+  port: 443
+  type: vmess
+  uuid: 27f00dd4-bb4a-4298-8613-e144b8ee55d8
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: jg.srpcom.online
+  network: ws
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: jg.srpcom.online
+  udp: true
